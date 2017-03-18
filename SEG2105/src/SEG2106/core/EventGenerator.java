@@ -3,6 +3,8 @@ package SEG2106.core;
 import java.util.LinkedList;
 import java.util.List;
 
+import SEG2106.TrafficLight;
+
 
 public abstract class EventGenerator extends Thread{
 	// Declaring some constants
@@ -24,9 +26,9 @@ public abstract class EventGenerator extends Thread{
 	
 
 	
-	public boolean addEventHandler(EventHandler handler){
+	public boolean addEventHandler(TrafficLight trafficLight){
 		if (eventHandlers.size() < EVENT_HANDLERS_LIMIT){
-			eventHandlers.add(handler);
+			eventHandlers.add(trafficLight);
 			return true;
 		}
 		else {

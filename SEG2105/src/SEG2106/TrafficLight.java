@@ -2,7 +2,7 @@ package SEG2106.core;
 /*PLEASE DO NOT EDIT THIS CODE*/
 /*This code was generated using the UMPLE 1.19.0.3369 modeling language!*/
 
-
+import SEG2106.core.TrafficLightManager;
 
 // line 1 "model.ump"
 //%% NEW FILE TrafficLight BEGINS HERE %%
